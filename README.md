@@ -6,7 +6,7 @@ ES Dictionary
 ## **Group:**
 Group 2
 
-## **Discription**
+## **Description**
 
 ES Dictionary is a Website dictionary that you can use thru Web, Tablet and Phone where you can browse word meaning. This dictionary is easy to use and it is free for all.
 
