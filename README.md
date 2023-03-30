@@ -14,9 +14,16 @@ Just make an account and log in here [ES Dictionary](insertlinkhere).
 
 After you log in try our different features like searching word, save and delete word. From our navigation area you can see the history of your past search, settings if you want to adjust, and try reach us via chat support so we can answer your queries.
 
+## **Project Goals**
+
+- Give user the meaning and images of the desire word search
+
+
 ## **API**
 
-Google API
+- Pexel API
+- Dictionary API
+- Open Weather API
 
 ## **Repository**
 
@@ -28,8 +35,10 @@ Figma for wireframe. HTML, CSS, Javascript for the front-end, For the Back-end w
 
 We use Figma for wireframe. HTML, CSS, Javascript for the front-end, For the Back-end we use PHP and MySQL to serve as database and Github for Hosting.
 
->**Wireframe**
+>**Demontration apps**
 - ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
+- ![Microsoft PowerPoint](https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
 
 >**Font-end**
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
