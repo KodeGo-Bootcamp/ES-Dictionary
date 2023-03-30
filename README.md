@@ -54,14 +54,14 @@ We use Figma for wireframe. HTML, CSS, Javascript for the front-end, For the Bac
 
 ## **Contributors**
 
-1. Waren Gador - 
+1. Waren Gador - Group Admin All (focus on UX / UI) and Helping for Manipulate PostgresSQL
 
-2. Emilio Tubao - 
+2. Emilio Tubao - Developer on mobile Version
 
-3. Bernard Opis - 
+3. Bernard Opis - Developer on Desktop Version
 
-4. Jerome Ballena - 
+4. Jerome Ballena - Developer on Javascript
 
-5. Ryan Ayo - 
+5. Ryan Ayo - Developer on Javascript
 
-6. Agaspar Latayada - 
+6. Agaspar Latayada - Documentation and Developer on Mobile Version
