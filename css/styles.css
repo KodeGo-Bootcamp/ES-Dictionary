@@ -362,6 +362,7 @@ ul {
 }
 
 .dictionary-box .right-content #audio audio {
+    width: 200px;
     border-radius: 50px;
     background-color: #868686;
 }
@@ -453,6 +454,11 @@ ul {
         font-size: 20px;
         font-style: italic;
     }
+
+@media only screen and (max-width: 1366px){
+    
+}
+
 @media only screen and (max-width: 1080px){
 
     body {
@@ -475,9 +481,12 @@ ul {
     }
 
     .dictionary-box .right-content {
-        flex-direction: column;
-        min-height: fit-content;
-        align-items: center;
+        width: 100%;
+    }
+
+    .dictionary-box .history {
+        width: 100%;
+        text-align: center;
     }
 
     @media only screen and (max-width: 970px){
@@ -578,6 +587,10 @@ ul {
         font-size: 90%;
     }
 
+    .menubar ul {
+        width: 800px;
+    }
+
     .menubar ul li a:hover{
         background-color: rgb(2, 44, 2);
         color: #fff;
@@ -625,7 +638,11 @@ ul {
 @media only screen and (max-width: 550px) {
 
     .menubar {
-        font-size: 90%;
+        font-size: 95%;
+    }
+
+    .menubar ul {
+        width: 550px;
     }
 }
 
