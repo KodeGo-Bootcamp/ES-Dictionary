@@ -238,6 +238,8 @@ ul {
     align-items: center;
     gap:5%;
     height: 50px;
+    width: 100%;
+    justify-content: center;
 }
 
 .menubar ul li {
@@ -469,10 +471,6 @@ ul {
 
     #content-area {
         flex-direction: column;
-    }
-
-    #content-area .menubar ul {
-        margin-left: 16%;
     }
 
     .dictionary-box {
