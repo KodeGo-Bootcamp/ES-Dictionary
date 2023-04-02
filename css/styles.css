@@ -350,7 +350,9 @@ ul {
 }
 
 .dictionary-box .right-content .bottom-line {
-    height: 60%;
+    text-align: center;
+    height: 50%;
+    width: 100%;
 }
 
 .dictionary-box .right-content .property {
@@ -469,6 +471,10 @@ ul {
         flex-direction: column;
     }
 
+    #content-area .menubar ul {
+        margin-left: 16%;
+    }
+
     .dictionary-box {
         flex-direction: column;
         height: fit-content;
@@ -487,6 +493,11 @@ ul {
     .dictionary-box .history {
         width: 100%;
         text-align: center;
+    }
+
+    .dictionary-box .weather-box {
+        width: 100%;
+        height: 210px;
     }
 
     @media only screen and (max-width: 970px){
