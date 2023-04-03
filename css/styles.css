@@ -242,6 +242,8 @@ ul {
     align-items: center;
     gap:5%;
     height: 50px;
+    width: 100%;
+    justify-content: center;
 }
 
 .menubar ul li {
@@ -351,10 +353,14 @@ ul {
     width: 100%;
 }
 
-.dictionary-box .right-content .center-line {
+.dictionary-box .right-content .central-line {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.dictionary-box .right-content .central-line #audio {
+    width: 200px;
 }
 
 .dictionary-box .right-content .property {
@@ -396,7 +402,7 @@ ul {
 }
 
 #footer-area .flex-container{
-
+    height: 187px;
     display: flex ;
     flex-direction: row;
     justify-content: space-between;
@@ -457,6 +463,7 @@ ul {
         font-size: 20px;
         font-style: italic;
     }
+
 @media only screen and (max-width: 1080px){
 
     body {
@@ -490,12 +497,16 @@ ul {
         width: 100%;
     }
 
-    @media only screen and (max-width: 970px){
+    .dictionary-box .weather-box {
+        width: 100%;
+        height: 210px;
+    }
+}
+
+@media only screen and (max-width: 970px){
         #footer-area .flex-container{
             flex-direction: column;
         }
-    
-    }
 }
 
 @media only screen and (max-width: 850px) {
