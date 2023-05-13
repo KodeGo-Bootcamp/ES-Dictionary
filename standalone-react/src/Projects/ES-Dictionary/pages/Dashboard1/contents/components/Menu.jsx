@@ -3,21 +3,23 @@ import React from "react";
 export function Menu() {
     return (
             <div className="Menu">
-                  <div className="flexbox1">
-                    <div className="progressbar"></div>
-                    {/*  {'\n'} is a linebreak in react */}
-                    <a href="#"><p>Search Words</p></a> {'\n'} 
-                    <h2>45%</h2>
+                  <div className="flexbox">
+                   <div className="circular-progress1">
+                    <span className="progress-value" id="progress1">45%</span>
+                   </div>
+                   <span className="text">Search Words</span>
                   </div>
-                  <div className="flexbox1">
-                  <div className="progressbar"></div>
-                  <a href="#"><p>Delete Words</p></a> {'\n'} 
-                    <h2>10%</h2>
+                  <div className="flexbox">
+                   <div className="circular-progress2">
+                    <span className="progress-value" id="progress2">10%</span>
+                   </div>
+                   <span className="text">Deleted Words</span>
                   </div>
-                  <div className="flexbox1">
-                  <div className="progressbar"></div>
-                  <a href="#"><p>Save Words</p></a> {'\n'} 
-                    <h2>50%</h2>
+                  <div className="flexbox">
+                   <div className="circular-progress3">
+                    <span className="progress-value" id="progress3">50%</span>
+                   </div>
+                   <span className="text">Saved Words</span>
                   </div>
             </div>
     )

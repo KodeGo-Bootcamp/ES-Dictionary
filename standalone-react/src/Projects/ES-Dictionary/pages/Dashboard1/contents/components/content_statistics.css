@@ -1,0 +1,95 @@
+.content_statistics{
+    display: flex;
+    position: relative;
+    top: 240px;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: left;
+    height: 86%;
+    width: 100%;
+}
+
+.user_details{
+    position: relative;
+    background-color: azure;
+    width: 320px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.user_background{
+position: absolute;
+background-color: brown;
+width: 320px;
+height: 300px;
+border-radius: 2%;
+}
+
+.background{
+   position: relative;
+   background-color: aqua;
+   width: 70%;
+   height: 220px;
+   width: 70%;
+   align-items: center;
+   justify-content: center;
+   top: 30px;
+   left: 50px;
+   border-radius: 50%;
+}
+
+.user_icon{
+    position: relative;
+    top: 30px;
+    font-size: 100px;
+}
+
+.user{
+    position: relative;
+    background-color: bisque;
+    top: 90px;
+    height: 71%;
+}
+
+.user h2{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.user ul li{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    text-align: left;
+}
+
+.data_statistics{
+position: relative;
+left: 10px;
+height: 100%;
+width: 83%;
+background-color: aqua;
+}
+
+.data_statistics h2{
+    position: relative;
+    top: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.data_statistics img{
+    position: relative;
+    content: url('./statatistics.png');
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    left: 13%;
+    height: 80%;
+}
