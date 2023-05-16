@@ -1,4 +1,5 @@
 import React from "react";
+import Dictionary from "./dictionary/dictionary";
 
 export function Content_dictionary(){
     return(
@@ -54,22 +55,7 @@ export function Content_dictionary(){
           </ul>
         </div>
         <div className="dictionary">
-          <div className="upper">
-            <img className="img-apple" alt="apple_icon" />
-            <div className="desc">
-              <h1>Apple</h1>
-              <p>Phonetics: $pple</p>
-            </div>
-          </div>
-          <div className="lower">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Laboriosam animi minima cum corporis obcaecati atque voluptatibus
-              fuga, consequuntur, veritatis consequatur expedita rem ab nam?
-              Rerum aut ut quos eos? Consequuntur?
-            </p>
-            <div className="audio"></div>
-          </div>
+           <Dictionary />
         </div>
       </div>
 
